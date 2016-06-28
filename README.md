@@ -1,7 +1,7 @@
 Needle
 ======
 
-[![NPM](https://nodei.co/npm/needle.png)](https://nodei.co/npm/needle/)
+[![NPM](https://nodei.co/npm/needle-x.png)](https://nodei.co/npm/needle-x/)
 
 The leanest and most handsome HTTP client in the Nodelands.
 
