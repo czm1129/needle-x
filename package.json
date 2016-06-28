@@ -1,6 +1,6 @@
 {
   "name": "needle-x",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "The leanest and most handsome HTTP client in the Nodelands.",
   "keywords": [
     "http",
@@ -58,9 +58,9 @@
   "directories": {
     "lib": "./lib"
   },
-  "main": "./lib/needle",
+  "main": "./lib/needle-x",
   "bin": {
-    "needle": "./bin/needle"
+    "needle": "./bin/needle-x"
   },
   "license": "MIT",
   "engines": {
