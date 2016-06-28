@@ -6,7 +6,7 @@ Needle
 The leanest and most handsome HTTP client in the Nodelands.
 
 ```js
-var needle = require('needle');
+var needle = require('needle-x');
 
 needle.get('http://www.google.com', function(error, response) {
   if (!error && response.statusCode == 200)
@@ -50,7 +50,7 @@ Install
 -------
 
 ```
-$ npm install needle
+$ npm install needle-x
 ```
 
 Usage
@@ -273,7 +273,7 @@ needle.defaults({
 
 This will override Needle's default user agent and 10-second timeout, and disable response parsing, so you don't need to pass those options in every other request.
 
-Regarding the 'Connection' header 
+Regarding the 'Connection' header
 ---------------------------------
 
 Unless you're running an old version of Node (< 0.11.4), by default Needle won't set the Connection header on requests, yielding Node's default behaviour of keeping the connection alive with the target server. This speeds up inmensely the process of sending several requests to the same host.
