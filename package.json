@@ -40,6 +40,7 @@
     "url": "https://github.com/tomas/needle.git"
   },
   "dependencies": {
+    "cli-color": "^1.2.0",
     "debug": "^2.1.2",
     "iconv-lite": "^0.4.4"
   },
